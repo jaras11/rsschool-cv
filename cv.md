@@ -1,5 +1,7 @@
 # Alex Jaras
 
+![Avatar](/avatar.png "Jaras")
+
 ### About Me
 
 I'm very modest, so I will not write what a fine fellow I am.
