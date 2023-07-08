@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Caveat";
+    src: url("/assets/fonts/Caveat-Regular.ttf");
+   }
+* {
+    box-sizing: border-box;
+  }
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #cbeccb;
+    font-family: 'Caveat', cursive;
+    display: flex;
+    flex-direction: column; /* переопределяем направление главной оси на вертикальную */
+    justify-content: space-between; /* выравниваем элементы по главной оси */
+}
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+.nav-list {    
+    display: flex; /* Разместить элементы навигации в строку */    
+    justify-content: flex-end; /* Сдвинуть элементы вправо */    
+    align-items: center; /* Выровнять по центру и по высоте */    
+    list-style: none; /* Убираем стандартные маркеры списка: */    
+  }
+.nav-link {
+    /* Добавляем отступы между элементами списка: */
+    padding: 0px 20px;
+    line-height: 50px;
+}
