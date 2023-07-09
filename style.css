@@ -11,22 +11,62 @@ body {
     padding: 0;
     background: #cbeccb;
     font-family: 'Caveat', cursive;
+    font-size: 22px;
     display: flex;
     flex-direction: column; /* переопределяем направление главной оси на вертикальную */
     justify-content: space-between; /* выравниваем элементы по главной оси */
 }
 .container {
-    max-width: 700px;
+    max-width: 1000px;
     margin: 0 auto;
   }
 .nav-list {    
-    display: flex; /* Разместить элементы навигации в строку */    
-    justify-content: flex-end; /* Сдвинуть элементы вправо */    
-    align-items: center; /* Выровнять по центру и по высоте */    
-    list-style: none; /* Убираем стандартные маркеры списка: */    
+    display: flex; /* Разместить элементы навигации в строку */
+    justify-content: flex-end; /* Сдвинуть элементы вправо */
+    align-items: center; /* Выровнять по центру и по высоте */
+    list-style: none; /* Убираем стандартные маркеры списка: */
   }
-.nav-link {
-    /* Добавляем отступы между элементами списка: */
-    padding: 0px 20px;
+.nav-link {    
+    padding: 0px 20px; /* Добавляем отступы между элементами списка: */
     line-height: 50px;
+    text-decoration: none; /* убираем подчёркивание ссылок */
+    font-size: 24px;
+    font-weight: bold;
+    color: brown;
+}
+.header-container {
+    border: 5px solid #115011;
+}
+.section{
+    margin-top: 5px;
+}
+.section-avatar {
+    float: right; /* Выравнивание по правому краю */
+    /*position: fixed;*/
+    margin: 0 0 5px 5px; /* отступы вокруг картинки */
+}
+.section-name {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+.section-title {
+    color: rgb(6, 63, 14);
+}
+.footer-container {
+    border: 5px solid #115011;
+    height: 100px; /* высота блока */
+}
+.section-logo {
+    float: right;
+}
+.footer-text {
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.author-ref {
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: bolder;
 }
